@@ -12,7 +12,7 @@
 	<key>keyEquivalent</key>
 	<string>^~@g</string>
 	<key>name</key>
-	<string>Create private Gist from Selection</string>
+	<string>Create private Gist</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>uuid</key>

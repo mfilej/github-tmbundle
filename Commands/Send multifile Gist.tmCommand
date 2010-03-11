@@ -13,7 +13,7 @@
 	<key>keyEquivalent</key>
 	<string>^~@g</string>
 	<key>name</key>
-	<string>Send multifile Gist</string>
+	<string>Send added files to multifile Gist</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>uuid</key>
