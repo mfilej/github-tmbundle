@@ -130,8 +130,9 @@ private
   end
 
   def auth
-    user  = `git config --global github.user`.strip
-    token = `git config --global github.token`.strip
+    git_command = ENV["TM_GIT"] || "git"
+    user  = `#{git_command} config --global github.user`.strip
+    token = `#{git_command} config --global github.token`.strip
 
     user.empty? ? {} : { 'login' => user, 'token' => token }
   end
